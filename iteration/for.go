@@ -12,7 +12,7 @@ func main() {
 	}
 
 	for index, value := range "loop thru string" {
-		fmt.Printf("char at %d = %s\n", index, string(value))
+		fmt.Printf("char at %d = %q\n", index, value)
 	}
 
 	nums := []int{1, 2, 3}
